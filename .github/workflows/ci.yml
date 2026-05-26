@@ -2,8 +2,9 @@ name: Python CI
 
 on:
   push:
+    branches: [ main ]  # Cambia "main" si tu rama principal tiene otro nombre.
   pull_request:
-  workflow_dispatch:
+    branches: [ main ]
 
 jobs:
   build:
